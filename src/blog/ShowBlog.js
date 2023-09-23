@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 
 
-const URI = 'http://localhost:8000/blogs/'
+const URI = 'http://18.144.52.174:8000/blogs/'
 
 const CompShowBlogs =() => {
     const [blogs, setBlog] = useState([])
